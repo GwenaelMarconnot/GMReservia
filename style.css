@@ -1,0 +1,511 @@
+body{
+margin : 0px;
+font-family: 'Raleway', sans-serif;
+}
+header{
+display: flex;
+justify-content:space-between;
+height: 120px;
+}
+#inscrire{
+padding-right: 50px;
+padding-top: 55px;
+color: #0065FC;
+font-weight: 600;
+}
+#logo{
+justify-content: flex-start;
+flex:1;
+padding-top: 50px;
+padding-left: 50px;
+}
+nav{
+display: flex;
+flex-direction: row;
+gap: 20px;
+padding-right: 50px;
+
+}
+.item_menu{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 165px;
+height: 100%;
+border-top: #FFFFFF 3px solid;
+}
+.item_menu:hover{
+border-top: #0065FC 3px solid;
+}
+.item_menu a{
+color: black;
+cursor: pointer;
+text-decoration: none;
+}    
+.item_menu a:hover{
+color: #0065FC;      
+}
+/* Recherche et formulaire */
+.search{
+display: flex;
+flex-direction: column;
+gap: 15px;
+padding: 50px;
+}
+.formulaire{
+display:flex;
+flex-direction: row;
+}
+.icon-position{
+width: 50px;
+height: 50px;
+border-radius:10px 0px 0px 10px;
+background: #F2F2F2;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ville{
+font-weight: 700;
+height: 100%;
+border:#F2F2F2 3px solid;
+width: 100%;
+outline:none;
+}
+.bouton_rechercher{
+width: 140px;
+border-radius: 0 10px 10px 0;
+background: #0065FC;
+color: white;
+border:none;
+}
+#texte-rechercher{
+    font-weight: 700;
+}
+/* filtres */
+.bloc-filtre{
+display: flex;
+flex-direction: row;
+gap: 20px;
+
+}
+.bouton-filtre{
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+.filtre{
+border-radius:20px 20px 20px 20px;
+border: #F2F2F2 3px solid;
+display: flex;
+flex-direction: row;
+gap: 10px;
+padding-right: 10px;
+}
+.filtre-icon{
+width: 50px;
+height: 50px;
+border-radius:20px 20px 20px 20px;
+background: #DEEBFF;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.color-blue{
+color: #0065FC;
+}
+.filtre-name{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+width: fit-content;
+color: black;
+font-weight: 600;
+}
+.info{
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+}
+.info-icon{
+width: 30px;
+height: 30px;
+border-radius:20px 20px 20px 20px;
+background: #DEEBFF;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* Fin recherche et formulaire */
+
+/* Main de la page */
+main{
+display: flex;
+flex-direction: column;
+gap: 30px;
+padding: 50px;
+}
+.section0{
+display: flex;
+flex-direction: row;
+justify-content: stretch;
+gap: 5%;
+}
+#hebergement{
+background-color: #F2F2F2;
+width: 75%;
+height: 100%;
+border: #F2F2F2 5px solid;
+border-radius: 20px 20px 20px 20px;
+display: flex;
+flex-direction: column;
+gap:20px;
+padding: 35px;
+}
+#populaire{
+background-color: #F2F2F2;
+width: 25%;
+border: #F2F2F2 5px solid;
+border-radius: 20px 20px 20px 20px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 35px;
+}
+.titre{
+display: flex;
+flex-direction:row;
+justify-content: space-between; 
+align-items: center;
+height: 10%;
+}
+.afficherPlus{
+    height: 15%;
+}
+.cardsHebergements{
+display: flex;
+height:30%;
+flex-direction:row;
+gap:5%;
+}
+.cardHebergement{
+width: 30%;
+height: 275px;
+border: 5px solid #FFFFFF;
+border-radius: 20px;
+display: flex;
+flex-direction:column;    
+background-color: white;
+box-shadow:2px 2px 8px #CCCCCC ;
+}
+.imgHebergement{
+height: 60%;
+width: 100%;
+display:flex;
+}
+.imgHebergement > img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: flex;
+border-radius: 20px 20px 0px 0px;
+}
+.detailHebergement{
+height: 40%;
+display:flex;
+flex-direction: column;
+border-radius: 0px 0px 20px 20px;
+padding: 20px;
+}
+.cardavis{
+color: #0065FC;
+}
+.greycolor{
+    color: #f2f2f2;
+    }
+.cardsPopulaires{
+display: flex;
+flex-direction:column;
+gap:20px;
+height: 100%;
+}
+.cardsPopulaire{
+height: 30%;
+border: 5px solid #FFFFFF;
+border-radius: 20px;
+display: flex;
+flex-direction:row;
+background-color: white;
+box-shadow: 0px 0px 6px 1px #F2F2F2;
+}
+.imgPopulaire{
+width: 40%;
+height: 100%;
+display:flex;
+}
+.imgPopulaire > img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: flex;
+border-radius: 20px 0px 0px 20px;
+}
+.detailPopulaire{
+width: 60%;
+height: 100%;
+display:flex;
+flex-direction: column;
+border-radius: 0px 20px 20px 0px;
+padding: 20px;
+}
+/* Fin main de la page */
+
+/* Activite à Marseille */
+#activites{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.cardsActivites{
+display: flex;
+width: 100%;
+height: 600px;
+flex-direction: row;
+gap: 30px;
+justify-content: stretch;
+}
+.cardActivites{
+display: flex;
+width: 25%;
+height: 100%;
+flex-direction: column;
+border-radius: 20px;
+background-color: white;
+box-shadow: 0px 0px 6px 1px #F2F2F2;
+}
+.imgActivites{
+display: flex;
+width: 100%;
+height: 95%;
+}
+.imgActivites > img{
+display: flex;
+width: 100%;
+height: 100%;
+object-fit: cover;
+background-color: white;
+border-radius: 20px 20px 0px 0px;
+}
+
+.detailActivites{
+display: flex;
+height: 5%;
+border-radius: 0px 0px 20px 20px;
+padding: 10px;
+align-items: center;
+}
+.cardtitre{
+    display: flex;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 600 ;
+}
+.cardActivites2{
+display: flex;
+width: 25%;
+height: 100%;
+flex-direction: column;
+gap: 10%;
+}
+.petitecardActivites{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 45%;
+border-radius: 20px;
+background-color: white;
+box-shadow: 0px 0px 6px 1px #F2F2F2;
+}
+
+.imgActivites2{
+display: flex;
+width: 100%;
+height: 80%;
+}
+.imgActivites2 > img{
+display: flex;
+width: 100%;
+height: 100%;
+object-fit: cover;
+background-color: white;
+border-radius: 20px 20px 0px 0px;
+}
+.detailActivites2{
+display: flex;
+height: 20%;
+border-radius: 0px 0px 20px 20px;
+padding: 20px;
+}
+/* Fin Activités à Marseille */
+
+/* Footer début */
+footer{
+display:flex;
+flex-direction: row;
+gap: 100px;
+background-color: #F2F2F2;
+padding: 40px;
+}
+.itemfooter{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.Titre{
+color: black;
+text-decoration:none ;
+}
+/* Footer Fin */
+
+/* VERSION MOBILE */ 
+@media screen and (max-width: 768px)
+{
+/* Footer mobile */
+footer{
+flex-direction: column;
+gap: 100px;
+}
+/* Footer Fin mobile */
+
+/* header mobile */
+header{
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+height: unset;
+}
+#inscrire{
+order: 1;
+}
+#logo{
+justify-content: flex-start;
+flex:unset;
+order:1;
+}    
+nav{
+order: 2;
+flex: 1 0 100%;
+height: 50px;
+padding: 0px;
+}
+.item_menu{
+width: 50%;
+border-top: unset;
+border-bottom: #FFFFFF 3px solid;
+}
+.item_menu:hover{
+border-top: unset;
+border-bottom: #0065FC 3px solid;
+}
+.item_menu a{
+color: black;
+cursor: pointer;
+text-decoration: none;
+}
+.item_menu a:hover{
+color: #0065FC;
+}
+/* Fin header mobile */
+
+/* filtres mobile */
+.bloc-filtre{
+flex-direction: column;
+}
+.bouton-filtre{
+flex-wrap: wrap;
+}
+/* Fin filtres mobile */
+
+/* Main Mobile */
+main{
+    padding: 0px;
+}
+.section0{
+flex-direction: column-reverse;
+gap: 30px;
+}
+#hebergement{
+width: auto;
+padding: 20px;
+background-color: unset;
+border: unset;
+}
+#populaire{
+width: auto;
+padding: 20px;
+border-radius: 0px;
+}
+/* J'ai fais ce qu'il y a en dessous pour le MAIN */
+.titre{
+flex-direction:row;
+justify-content: space-between; 
+align-items: center;
+}
+.cardsHebergements{
+flex-direction:column;
+gap:30px;
+}
+.cardHebergement{
+height: 275px;
+width: auto;
+}
+
+.imgPopulaire {
+    height: unset;
+}
+/* FIN de ce que j'ai fais pour le main */
+
+/* J'ai réalisé cela pour ACTIVITE MARSEILLE */
+#activites{
+    padding: 20px;
+}
+.cardsActivites{
+width: auto;
+height: unset ;
+flex-direction: column;
+gap: 30px;
+}
+.cardActivites{
+width: 100%;
+height: 100%;
+}
+.imgActivites{
+width: auto;
+height: 85%;
+}
+   
+.detailActivites{
+height: 15%;
+}  
+.cardActivites2{
+width: 100%;
+height: 100%;
+}
+.petitecardActivites{
+flex-direction: column;
+width: 100%;
+height: 100%;
+} 
+.imgActivites2{
+width: 100%;
+height: 80%;
+}
+.imgActivites > img , .imgActivites2>img {
+    height: 135px;
+}
+.detailActivites2{
+height: 20%;
+}
+/* Ce que j'ai fais pour mobile sur ACTIVITE MARSEILLE */
