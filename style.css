@@ -25,7 +25,6 @@ display: flex;
 flex-direction: row;
 gap: 20px;
 padding-right: 50px;
-
 }
 .item_menu{
 display: flex;
@@ -81,7 +80,7 @@ color: white;
 border:none;
 }
 #texte-rechercher{
-    font-weight: 700;
+font-weight: 700;
 }
 /* filtres */
 .bloc-filtre{
@@ -512,4 +511,5 @@ height: 135px;
 .detailActivites2{
 height: 20%;
 }
-/* Activités Marseille Main */
+
+/* Activités Marseille Mobile */
