@@ -103,6 +103,9 @@ flex-direction: row;
 gap: 10px;
 padding-right: 10px;
 }
+a:hover {
+color: #0065FC; 
+}
 .filtre-icon{
 width: 50px;
 height: 50px;
@@ -172,6 +175,10 @@ display: flex;
 flex-direction: column;
 gap: 20px;
 padding: 35px;
+}
+.cardtitre{
+text-decoration: none;
+color: black;
 }
 .titre{
 display: flex;
@@ -306,12 +313,12 @@ padding: 10px;
 align-items: center;
 }
 .cardtitre{
-    display: flex;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 600 ;
+display: flex;
+margin-block-start: 0px;
+margin-block-end: 0px;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: 600;
 }
 .cardActivites2{
 display: flex;
@@ -448,7 +455,7 @@ width: auto;
 padding: 20px;
 border-radius: 0px;
 }
-/* J'ai fais ce qu'il y a en dessous pour le MAIN */
+/* Carte Hébergement Main */
 .titre{
 flex-direction:row;
 justify-content: space-between; 
@@ -466,9 +473,9 @@ width: auto;
 .imgPopulaire {
     height: unset;
 }
-/* FIN de ce que j'ai fais pour le main */
+/* FIN Carte Hébergement Main */
 
-/* J'ai réalisé cela pour ACTIVITE MARSEILLE */
+/* Activités Marseille mobile */
 #activites{
     padding: 20px;
 }
@@ -504,9 +511,9 @@ width: 100%;
 height: 80%;
 }
 .imgActivites > img , .imgActivites2>img {
-    height: 135px;
+height: 135px;
 }
 .detailActivites2{
 height: 20%;
 }
-/* Ce que j'ai fais pour mobile sur ACTIVITE MARSEILLE */
+/* Activités Marseille Main */
