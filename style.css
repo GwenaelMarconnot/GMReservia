@@ -87,8 +87,7 @@ border:none;
 .bloc-filtre{
 display: flex;
 flex-direction: row;
-gap: 20px;
-
+gap: 20px; 
 }
 .bouton-filtre{
 display: flex;
@@ -102,9 +101,6 @@ display: flex;
 flex-direction: row;
 gap: 10px;
 padding-right: 10px;
-}
-a:hover {
-color: #0065FC; 
 }
 .filtre-icon{
 width: 50px;
@@ -127,9 +123,9 @@ color: black;
 font-weight: 600;
 }
 .info{
- display: flex;
- flex-direction: row;
- gap: 10px;
+display: flex;
+flex-direction: row;
+gap: 10px;
 }
 .info-icon{
 width: 30px;
