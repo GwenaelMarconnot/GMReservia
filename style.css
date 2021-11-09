@@ -156,7 +156,6 @@ main{
 display: flex;
 flex-direction: column;
 gap: 15px;
-padding: 40px;
 }
 .section0{
 display: flex;
@@ -291,6 +290,7 @@ height: 600px;
 flex-direction: row;
 gap: 30px;
 justify-content: stretch;
+margin-bottom: 40px;
 }
 .cardActivites{
 display: flex;
